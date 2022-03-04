@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+
+
+<!-- HTML Code: Place this code in the document's body (between the 'body' tags) where the table should appear -->
+<table class="GeneratedTable">
+  <thead>
+  <tr>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Age</th>
+    <th>Gender</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td th:text="${mentor.get(0).firstName}"> </td>
+    <td th:text="${mentor.get(0).lastname}"> </td>
+    <td th:text="${mentor.get(0).age}"> </td>
+    <td th:text="${mentor.get(0).gender}"> </td>
+  </tr> <tr>
+    <td th:text="${mentor.get(1).firstName}"> </td>
+    <td th:text="${mentor.get(1).lastname}"> </td>
+    <td th:text="${mentor.get(1).age}"> </td>
+    <td th:text="${mentor.get(1).gender}"> </td>
+  </tr> <tr>
+    <td th:text="${mentor.get(2).firstName}"> </td>
+    <td th:text="${mentor.get(2).lastname}"> </td>
+    <td th:text="${mentor.get(2).age}"> </td>
+    <td th:text="${mentor.get(2).gender}"> </td>
+  </tr> <tr>
+    <td th:text="${mentor.get(3).firstName}"> </td>
+    <td th:text="${mentor.get(3).lastname}"> </td>
+    <td th:text="${mentor.get(3).age}"> </td>
+    <td th:text="${mentor.get(3).gender}"> </td>
+  </tr>
+
+
+
+
+  </tbody>
+</table>
+<!-- Codes by Quackit.com -->
+
+
+
+
+</body>
+</html>
